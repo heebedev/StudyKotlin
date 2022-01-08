@@ -1,0 +1,25 @@
+변수
+- 변경 가능한 변수
+    * var (variable, 변수)
+- 변경 불가능한 변수
+    * val (value, 값)
+
+선언하는 방법
+val/var 이름
+- var school
+- val school
+
+할당하는 방법
+var/val 이름 = 값
+- school = "대한민국 학교"
+- val/var school = "대한민국 학교"
+
+암묵적인 규칙
+val 선언시 : 대문자 네이밍
+- ex) val SCHOOL = "학교"
+var 선언시 : 소문자
+- ex) var phoneNumber = "010-1111-1111"
+
+** 암묵적인 규칙 : 코딩 컨벤션 (http://kotlinlang.org/docs/coding-conventions.html
+
+** 자동정력 : 커맨드
