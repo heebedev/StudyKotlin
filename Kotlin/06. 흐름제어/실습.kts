@@ -28,23 +28,20 @@ val number4:Int = 5
 //    }
 //}
 
-when (number4) {
-    4 -> println("4 입니다.")
-    5 -> println("5 입니다.")
-    else -> println("else")
-}
-
-when (number4) {
-    4 -> println("4 입니다.")
-    "안녕하세요." -> println("5 입니다.")
-    is Boolean -> println("else")
-}
-
-when (number4) {
-    in 1..10 -> println("4 입니다.")
-    in 20..30 -> println("5 입니다.")
-    in 40..60 -> println("else")
-}
-
-
-
+//when (number4) {
+//    4 -> println("4 입니다.")
+//    5 -> println("5 입니다.")
+//    else -> println("else")
+//}
+//
+//when (number4) {
+//    4 -> println("4 입니다.")
+//    "안녕하세요." -> println("5 입니다.")
+//    is Boolean -> println("else")
+//}
+//
+//when (number4) {
+//    in 1..10 -> println("4 입니다.")
+//    in 20..30 -> println("5 입니다.")
+//    in 40..60 -> println("else")
+//}

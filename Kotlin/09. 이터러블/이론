@@ -1,0 +1,21 @@
+Iterable
+- 반복 가능하다.
+- 시작과 끝이 있다 -> 범위가 있다.
+
+- Collection
+- Array
+- Progression (코틀린에...)
+    - 시작점과 끝점이 있고, 범위를 정할 수 있음
+    - 구간 : 구간1 -> 반복을 할 때 1 씩 이동
+    - 1..10 step 2
+    - 10 downTo 1 step 2
+    - (1..10).reversed() step 5
+
+- Range
+    - 구간이 1인 Progression
+    - 1..10 -> 1부터 10까지 (닫힌 구간)
+    - 1.rangeTo(10) -> 1부터 10까지 (닫힌 구간)
+    - 1 until 10 -> 1부터 9까지 (열린 구간)
+
+
+
